@@ -1,0 +1,213 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container {
+    margin: 0 auto;
+    padding: 0;
+    max-width: 1200px;
+}
+
+.page {
+    max-width: 842px;
+    margin: 0 auto;
+    background: #fff;
+    padding: 20px 35px;
+    box-shadow: 0px 0px 15px 17px rgba(235, 235, 235, 1);
+    margin-bottom: 20px;
+    height: 595px;
+}
+.page.sozlesme {
+    max-width: 730px;
+    padding: 20px 0;
+    height: auto;
+}
+.head-vf {
+    /* background: #B20000;
+    height: 85px; */
+    line-height: 0;
+
+}
+
+.head-vf img {
+    width: 100%;
+}
+
+.headblck {
+    text-align: center;
+    background: #000;
+    color: #fff;
+    line-height: 1.6;
+    margin-bottom: 20px;
+}
+
+.text-area {
+    display: table;
+    justify-content: space-between;
+}
+
+.text-area p {
+    font-size: 13px;
+}
+
+.text-area>div {
+    width: 435px;
+    display: table-cell;
+}
+
+.text-area .lefttx {
+    padding-right: 5px;
+}
+
+.text-area .righttx {
+    padding-left: 5px;
+}
+
+.sozlesme-con {
+    background: #ebebeb;
+    font-size: 9px;
+    padding: 10px;
+     display: table;
+}
+
+.sozlesme-con>div {
+    width: 347px;
+    display: table-cell;
+}
+.sozlesme-con h2 {
+    font-size: 11px;
+    margin-top: 2px;
+    margin-bottom: 4px;
+}
+
+.form-item {
+    margin-bottom: 5px;
+}
+
+.form-item span {
+      width: 100px;
+    display: inline-block;
+}
+
+input[type="text"] {
+    border: none;
+    border-radius: 6px;
+    height: 23px;
+    width: 163px;
+    font-size: 9px;
+    border: 1px solid #ccc;
+    padding: 0 5px;
+}
+.frm-radio table {
+    width: 301px;
+}
+
+.frm-radio table td{
+    padding: 5px;
+    width: 100px;
+
+}
+
+.frm-radio label span {
+    padding-left: 6px;
+    display: unset;
+    width: unset;
+}
+.frm-radio input[type="radio"] {
+    display: inline-block;
+}
+.form-item {
+    margin-bottom: 3px;
+}
+.frm-check input[type="checkbox"] {
+    width: 10px;
+    height: 10px;
+}
+.form-item.frm-check label>span {
+    display: inline-block;
+    max-width: 206px;
+    width: auto;
+}
+.form-item.frm-check label {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.twice-inpt1{
+    width: 155px !important;
+}
+.twice-span{
+    width: auto !important;
+}
+.twice-inpt2{
+    width: 85px !important;
+}
+.sozleft {
+    padding-right: 5px;
+}
+.sozright {
+    padding-left: 5px;
+}
+.sozcon2 {
+    display: block;
+    background: #fff;
+}
+.sozcon2 .frm-radio label span {
+    min-width: 130px;
+    padding-left: 5px;
+}
+.sozcon2 .frm-radio label span:before {
+    right: 0;
+    left: auto;
+}
+.sozcon2 .frm-radio label span:after {
+    right: 3px;
+    left: auto;
+}
+.sozlesme-con.sozcon2>div {
+    width: auto;
+}
+ .headblck.red{
+    background: #E60000;
+    margin-bottom: 0;
+}
+.numaralar-block{
+    display: inline-block;
+    width: 595px;
+}
+.head2.head-vf img {
+    width: 160px;
+}
+.text-area p {
+    font-size: 8px;
+}
+.headblck h2 {
+    font-size: 16px;
+}
+.page {
+    max-width: 876px;
+    padding: 0;
+    height: 895px;
+    background: transparent;
+    box-shadow: none;
+    margin-bottom: 50px;
+}.form-item.frm-check {
+    width: 268px;
+}
+textarea{
+
+    border: none;
+    border-radius: 6px;
+    height: 23px;
+    width: 163px;
+    font-size: 9px;
+    border: 1px solid #ccc;
+    padding: 0 5px;
+  resize: none;
+}
