@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8">
+  <title>TOPLU AKTİVASYON / İHYA BİLGİ FORMU</title>
+  <link rel="stylesheet" type="text/css" href="../style.css">
+</head>
+<body>
+<h1>KURUMSAL ABONELER İÇİN NUMARA TAŞIMA TALEP FORMU</h1>
+<form>
+  <p>Başvuruda bulunan kişi</p>
+  <label for="name">Adı, Soyadı:</label>
+  <input type="text" id="name" name="name" required><br><br>
+
+  <label for="tc">T.C. Kimlik No:</label>
+  <input type="text" id="tc" name="tc" required><br><br>
+
+  <p>Başvuruda bulunan kişi Yetkili ise</p>
+
+  <label for="sirkuler">Sirkülerin tasdik edildiği noter:</label>
+  <input type="text" id="sirkuler" name="sirkuler"><br>
+
+  <label for="sirkuler_tarihi">Sirkülerin tarihi/no'su:</label>
+  <input type="text" id="sirkuler_tarihi" name="sirkuler_tarihi"><br>
+
+  <p>Başvuruda bulunan kişi vekil ise</p>
+
+  <label for="vekaletname">Vekaletnamenin düzenlendiği noter:</label>
+  <input type="text" id="vekaletname" name="vekaletname"><br>
+
+  <label for="vekaletname_tarihi">Vekaletnamenin tarihi/no'su:</label>
+  <input type="text" id="vekaletname_tarihi" name="vekaletname_tarihi"><br>
+
+  <p>Abone bilgileri:</p>
+  <div>
+    <label for="vergi_numarasi">Vergi numarası:</label>
+    <input type="text" id="vergi_numarasi" name="vergi_numarasi"><br>
+    <label>
+      <input type="checkbox" name="vergi_bulunmamaktadir">
+      Vergi numarası bulunmamaktadır.
+    </label>
+  </div>
+
+  <label for="ticaret_unvani">Ticaret unvanı / Kurum adı:</label>
+  <input type="text" id="ticaret_unvani" name="ticaret_unvani"><br>
+
+  <label for="irtibat_telefonu">İrtibat telefonu:</label>
+  <input type="tel" id="irtibat_telefonu" name="irtibat_telefonu" required><br><br>
+
+  <p>Talep edilen taşıma zamanı:</p>
+  <label for="tasima_zamani_1">00:00-07:59 arası:</label>
+  <input type="checkbox" id="tasima_zamani_1" name="tasima_zamani_1"><br>
+
+  <label for="tasima_zamani_2">08:00-15:59 arası:</label>
+  <input type="checkbox" id="tasima_zamani_2" name="tasima_zamani_2"><br>
+
+  <label for="tasima_zamani_3">16:00-23:59 arası:</label>
+  <input type="checkbox" id="tasima_zamani_3" name="tasima_zamani_3"><br>
+
+  <p>Numara bilgileri:</p>
+  <div>
+    <label for="verici_isletmeci">Verici işletmeci:</label>
+    <input type="text" id="verici_isletmeci" name="verici_isletmeci"><br>
+  </div>
+  <div>
+    <label for="alici-isletmeci">Alıcı işletmeci:</label>
+    <input type="text" id="alici-isletmeci" name="alici-isletmeci">
+  </div>
+  <div>
+    <label for="numara-blok">Numara(lar) ve/veya Numara bloğu:</label>
+    <input type="text" id="numara-blok" name="numara-blok">
+  </div>
+  <div>
+    <label for="numara-blok">Numara bloğu:</label>
+    <input type="text" id="numara-blok_2" name="numara-blok">
+  </div>
+</form>
+<div>
+  <p>Bu formda belirtilen numaranın / numaraların yukarıda adı geçen alıcı işletmeciye taşınmasına ilişkin bilgilerin, alıcı işletmeci tarafından numara taşıma sürecinde gerekli birimlere verilmesine ve bu işlemin Şirketimiz / Kurumumuz adına alıcı işletmeci tarafından yürütülmesine onay veriyoruz.</p>
+  <p>Kaşe ve İmza :</p>
+  <p>Adı, Soyadı : ____________________________________ Tarih : ________/________/________</p>
+  <p>Bu form ile yapılan numara taşıma talebi, verici işletmeciyle olan abonelik sözleşmesini fesih talebi anlamını taşır.Abonenin alıcı işletmeci ile olan abonelik sözleşmesi numaranın taşınması ile yürürlüğe girer.Abonenin verici işletmeci ile olan abonelik sözleşmesi de aynı tarih itibarı ile fesholunmuş sayılır. Abonenin mevcut işletmecisine karşı olan halihazırdaki mali yükümlülükleri numaranın taşınması ile sona ermez.</p>
+  <p>Vodafone Telekomünikasyon A.Ş.</p>
+</div>
+</body>
+</html>
