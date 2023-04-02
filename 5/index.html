@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Mesafeli Satış Sözleşmesi</title>
+  <link rel="stylesheet" href="../style.css">
+  <style>
+
+    table {
+      width: 100%;
+      border: 1px solid #6c6b6b;
+      border-spacing: 0;
+    }
+
+    thead {
+      height:28px;
+    }
+
+    tr,td {
+      border: 0.5px solid #646363;
+      min-width: 80px;
+      padding: 8px;
+    }
+
+    ol li {
+      margin-bottom: 8px;
+    }
+  </style>
+</head>
+<body>
+<div class="container">
+  <h2 style="text-align: center; text-decoration: underline">Mesafeli Satış Sözleşmesi</h2>
+  <p style="font-weight: bold">1.TARAFLAR</p><br>
+  <p>İşbu Mesafeli Satış Sözleşmesi <strong>("Sözleşme")</strong>; adresi 4. maddede belirtilen <strong>("ALICI")</strong> ile Büyükdere Cad. No:251 Maslak,Sarıyer/İstanbul adresinde bulunan Vodafone Telekomünikasyon A.Ş. <strong>("SATICI veya Vodafone")</strong> arasında aşağıda belirtilen hüküm ve şartlar çerçevesinde elektronik ortamda kurulmuştur.</p>
+  <br>
+  <p style="font-weight: bold">2.KONU</p>
+  <br>
+  <p>İşbu Sözleşme 6502 Sayılı Tüketicinin Korunması Hakkında Kanun ve Mesafeli Sözleşmeler Yönetmeliği'ne uygun olarak düzenlenmiş olup Taraflar işbu Sözleşme kapsamında 6502 Sayılı Tüketicinin Korunması Hakkında Kanun ve Mesafeli Sözleşmeler Yönetmeliği'nden kaynaklanan yükümlülük ve sorumluluklarını bildiklerini ve anladıklarını kabul ve beyan ederler. Önbilgilendirme formu işbu mesafeli sözleşmenin ayrılmaz bir parçasıdır ve taraflar aksini açıkça kararlaştırmadıkça bu bilgiler değiştirilemez.</p>
+  <br>
+  <p>İşbu Sözleşme’nin konusu; Vodafone’un aldığı lisans ve yetkilendirmeler kapsamında sunduğu elektronik haberleşme hizmetleri ve katma değerli hizmetlerden ALICI’nın faydalandırılmasına ve ALICI tarafından, Vodafone’a ait “Yanımda” uygulaması üzerinden elektronik ortamda abonelik işlemlerinin tesis edilmesine ilişkin Tüketicinin Korunması Hakkında Kanun ve Mesafeli Sözleşmeler Yönetmeliği hükümleri gereğince Taraflar’ın hak ve yükümlülüklerin belirlenmesidir.</p>
+
+  <div style="display: flex; flex-direction: column; gap: 8px; padding: 24px 0">
+    <p style="font-weight: bold">3.SATICI BİLGİLERİ</p>
+    <div>
+      <label for="satici-unvani">Ünvanı:</label>
+      <input type="text" id="satici-unvani" name="satici-unvani" value="Vodafone Telekomünikasyon A.Ş.">
+    </div>
+    <div>
+      <label for="satici-adresi">Adresi:</label>
+      <input type="text" id="satici-adresi" name="satici-adresi" value="Büyükdere Cad. No:251 Maslak, Sarıyer/İstanbul">
+    </div>
+    <div>
+      <label for="satici-mersis">Mersis:</label>
+      <input type="text" id="satici-mersis" name="satici-mersis" value="925035326100017">
+    </div>
+    <div>
+      <label for="satici-telefon">Telefon:</label>
+      <input type="tel" id="satici-telefon" name="satici-telefon" value="0 850 542 00 00">
+    </div>
+    <div>
+      <label for="satici-fax">Fax:</label>
+      <input type="tel" id="satici-fax" name="satici-fax" value="0 850 542 10 10">
+    </div>
+    <div>
+      <label for="satici-e-posta">E-posta adresi:</label>
+      <input type="email" id="satici-e-posta" name="satici-e-posta" value="[SATICI E-POSTA ADRESI]">
+    </div>
+  </div>
+  <div style="display: flex; flex-direction: column; gap: 8px; padding: 24px 0">
+    <p style="font-weight: bold">4.ALICI BİLGİLERİ</p>
+    <div>
+      <label for="teslim-edilecek-kisi">Teslim Edilecek Kişi:</label>
+      <input type="text" id="teslim-edilecek-kisi" name="teslim-edilecek-kisi" value="SEVİL ALTAN">
+    </div>
+    <div>
+      <label for="teslimat-adresi">Teslimat Adresi:</label>
+      <input type="text" id="teslimat-adresi" name="teslimat-adresi" value="Türkiş blokları 7303 parsel b blok : d:3 MEVLANA ATAŞEHİR İSTANBUL">
+    </div>
+    <div>
+      <label for="teslimat-telefon">Telefon:</label>
+      <input type="tel" id="teslimat-telefon" name="teslimat-telefon" value="905373815727">
+    </div>
+    <div>
+      <label for="teslimat-e-posta">E-posta/Kullanıcı Adı:</label>
+      <input type="email" id="teslimat-e-posta" name="teslimat-e-posta" value="neslihanaltan@hotmail.com">
+    </div>
+  </div>
+
+  <p style="font-weight: bold">5.SÖZLEŞME KONUSU ÜRÜN/HİZMET BİLGİLERİ</p> <br>
+  <p> <strong>5.1.</strong> Vodafone'un aldığı lisans ve yetkilendirmeler kapsamında sunduğu elektronik haberleşme hizmetleri ve katma değerli hizmetlerden ALICI’nın faydalandırılmasına ilişkin ve ALICI tarafından, Vodafone’a ait “Yanımda” uygulaması üzerinden elektronik ortamda abonelik işlemleri tesis edilmektedir.</p><br>
+  <p>Abone, Vodafone'un abonelik başlangıcında sunduğu Tarife'lerden birisini seçer. Aksi halde Aboneye tahsis edilen hat, Sözleşme'nin imza tarihinde yürürlükte bulunan Vodafone standart Tarifeleri üzerinden kullanıma açılır.</p><br>
+  <p>Mesafeli sözleşmenin imzasından sonra abonenin bir kampanyadan faydalanması halinde, kampanya süresince kampanya koşulları geçerli olacaktır. Kampanya bitimindeki ücretlendirme koşulları kampanya esaslarında bildirilmektedir.</p><br>
+  <p>Abonelik tesisine ilişkin hak ve yükümlülükler Tip Abonelik Sözleşmesi’nde düzenlenmekte olup işbu sözleşmede hüküm bulunmayan hallerde Tip Abonelik Sözleşmesi geçerli olacaktır.</p><br>
+  <p>Abonelik tesis işlemi ile doğan yasal vergi, resim, harç ve diğer ücretler (abonelik işlem ücretleri, telsiz kullanım ücretleri vb) abonenin yasal yükümlülüğü olup, faturasına yansıtılarak ALICI aboneden tahsil edilecektir. ALICI abone tarafından ödenecek olan işbu yasal yükümlükler Devlet tarafından belirlenmekte olup, Vodafone’a ait internet sitesinde ve Yanımda’da açıklamalar yer almaktadır.</p><br>
+  <p><strong>5.2.</strong> Hizmetin temel özellikleri (tarife adı, fiyatı, esasları vb.) Vodafone’a ait internet sitesinde ve Yanımda’da yer almaktadır.</p><br>
+  <p><strong>5.3.</strong> Vodafone’a ait www.vodafone.com internet sitesinde veya Vodafone Yanımda (“Yanımda”) uygulamasında ilan edilen fiyatlar BTK tarafından onaylanmış standart tarife fiyatları olup Vodafone, tarife ve kampanya özelliklerinde ve ücretlendirmesinde Bilgi Teknolojileri ve İletişim Kurumu tarafından belirlenen usullere uygun olarak değişiklik yapma hakkına sahiptir.</p><br>
+  <p><strong>5.4.</strong> Sözleşme konusu hizmetin tüm vergiler dâhil satış fiyatı aşağıdaki gibidir:</p>
+  <div>
+    <table style="margin-top: 24px">
+      <tr>
+        <th>Tarife Bilgileri</th>
+        <th>Adet</th>
+        <th>Aylık Taahhütlü Fiyatı (Vergiler Dahil)</th>
+      </tr>
+      <tr>
+        <td><input type="text" id="tarife" name="tarife" value="Red Business 20"/></td>
+        <td><input type="text" id="amount" name="amount" value="1"/></td>
+        <td><input type="text" id="price" name="price" value="1"></td>
+      </tr>
+      <tr>
+        <td>Kargo Tutarı*</td>
+        <td>-</td>
+        <td>-</td>
+      </tr>
+      <tr>
+        <td>Toplam</td>
+        <td><input type="text" id="total" name="total" value="2"></td>
+        <td><input type="text" id="totall" name="totall" value="59"></td>
+      </tr>
+    </table>
+
+    <div style="margin-top: 24px; margin-bottom: 12px">
+      <label for="teslimat-adresi-2">Teslimat Adresi:</label>
+      <input type="text" id="teslimat-adresi-2" name="teslimat-adresi-2" value="Türkiş blokları 7303 parsel b blok : d:3 MEVLANA ATAŞEHİR İSTANBUL">
+    </div>
+    <div style="margin-bottom: 12px">
+      <label for="teslimat-telefon">Fatura Adresi:</label>
+      <input type="tel" id="fatura-adresi" name="fatura-adresi" value="">
+    </div>
+    <div style="margin-bottom: 12px">
+      <label for="teslimat-e-posta">Sipariş Tarihi:</label>
+      <input type="date" id="siparis-tarihi" name="siparis-tarihi" value="12">
+    </div>
+    <div style="margin-bottom: 12px">
+      <label for="teslim-sekli">Teslim Şekli:</label>
+      <input type="text" id="teslim-sekli" name="teslim-sekli" value="12">
+    </div>
+    <p style="margin: 24px 0">SIM Kartların teslimi için yapılacak kargo ve kurye masrafı Vodafone’a aittir</p>
+  </div>
+  <div>
+    <p style="font-weight: bold">6. TARAFLARIN HAK VE YÜKÜMLÜLÜKLERİ</p> <br>
+    <p style="margin-bottom: 12px"><strong>6.1.</strong>   ALICI, İnternet Sitesi’nde ve/veya Uygulama’da Sözleşme konusu Hizmetin temel nitelikleri, satış fiyatı ve ödeme şekli ile teslimata ilişkin ön bilgileri okuyup, bilgi sahibi olduğunu, elektronik ortamda gerekli teyidi verdiğini kabul, beyan ve taahhüt eder. Abone’nin Ön Bilgilendirmeyi elektronik ortamda teyit etmesi, mesafeli satış sözleşmesinin kurulmasından evvel, SATICI tarafından ALICI'ya verilmesi gereken adresi, siparişi verilen hizmete ait temel özellikleri, hizmetin vergiler dâhil fiyatını, ödeme ve teslimat bilgilerini de doğru ve eksiksiz olarak edindiğini kabul, beyan ve taahhüt eder.</p>
+    <p style="margin-bottom: 12px"><strong>6.2.</strong>
+      İşbu Sözleşme konusu mobil GSM aboneliğinin gerçekleştirilebilmesi için Vodafone tarafından ALICI’ya hizmetin ifası için zorunlu bir yan ürün olan SIM Kart gönderilecektir. Aboneye,Söleşme süresi sonuna kadar tahsis edlen SIM Kart'ının içinde kayıtlı olan bilgiler, kodlar, şifreler ve yazılımlar üzeriıdeki eser sahipliğinden doğan tüm mali ve manevi haklar münhasıran Vodafone'a ait olup, Aboneye yalnızca Sözleşme süresi boyunca Sözleşmenin amacına uygun olarak SIM Kart kullanma hakkı tahsis edilmektedir. Sözleşme konusu abonelik hizmetine ilişkin ALICI’ye teslim edilecek SIM Kart, Alıcı’nın yerleşim yeri uzaklığına bağlı olarak en geç 30 gün içerisinde ALICI’ya teslim edilecektir. SIM Kart hakkındaki yükümlülükler, sorumluluklar ve haklar Tip Abonelik Sözleşmesi’nde düzenlenmekte olup, ilgili sözleşme yükümlülükleri geçerlidir.
+    </p>
+    <p style="margin-bottom: 12px"><strong>6.3.</strong>SATICI, SIM Kartı eksiksiz, siparişte belirtilen niteliklere uygun ve varsa işin gereği olan bilgi ve belgeler ile her türlü ayıptan ari olarak yasal mevzuat gereklerine göre sağlam bir şekilde teslim etmeyi, hizmeti, doğruluk ve dürüstlük esasları dâhilinde ifa etmeyi, hizmet kalitesini koruyup yükseltmeyi, işin ifası sırasında gerekli dikkat ve özeni göstermeyi, ihtiyat ve öngörü ile hareket etmeyi kabul, beyan ve taahhüt eder.</p>
+    <p style="margin-bottom: 12px"><strong>6.4.</strong>ALICI, Sözleşme konusu hizmetin ifası için zorunlu bir yan ürün olan SIM kARTI teslim almadan önce muayene edecek; ezik, kırık, ambalajı yırtılmış vb. hasarlı ve ayıplı SIM Kartı kargo şirketinden teslim almayacaktır. Teslim alınan SIM Kartın hasarlı/bozuk olduğu durumlarda ALICI, Vodafone Müşteri Hizmetlerini arayarak kendisine yeni SIM Kart iletilmesini talep edecek ve hasarsız yeni SIM Kart 7(yedi) gün içerisinde ALICI’ya teslim edilecektir. Teslimden sonra mal/hizmetin özenle korunması borcu, ALICI’ya aittir.
+    </p>
+  </div>
+  <div>
+    <p style="font-weight: bold">7. CAYMA HAKKI</p> <br>
+    <strong>
+      İşbu Sözleşme kapsamında tanımı yapılan ve satışı gerçekleştirilen hizmet, 29188 sayılı Mesafeli Sözleşmeler Yönetmeliği kapsamında, niteliği itbariyle elektronik ortamda anında ifa edilen ve tüketiciye
+      anında teslim edilen gayrimaddi nitelikte olduğundan, Alıcı’nın cayma hakkı bulunmamaktadır.
+    </strong>
+  </div>
+  <div>
+    <br>
+    <p style="font-weight: bold">8. UYUŞMAZLIKLARIN ÇÖZÜMÜ</p> <br>
+    <p>
+      İşbu Sözleşme’nin uygulanmasından doğan uyuşmazlıklarda, T.C. Ticaret Bakanlığınca ilan edilen değere kadar Alıcının Mal veya Hizmeti satın aldığı ve ikametgahının bulunduğu yerdeki Tüketici Hakem Heyetleri ile Tüketici Mahkemeleri yetkilidir. 6502 Sayılı Tüketicinin Korunması Hakkında Kanun’un 68. maddesinin 1. fıkrasında belirtilen alt ve üst limitler doğrultusunda tüketici talepleri hakkında ilçe/il tüketici hakem heyetleri yetkilidir.
+      Taraflar, Sözlesme'nin uygulanmasından ve yorumundan doğan uyuşmazlıklarda T.C. Ticaret Bakanlığınca belirlenen parasal sınırlar dahilinde ALICI ve SATICI’nın ikametgâhının bulunduğu yerdeki Tüketici Hakem Heyetlerini aşan durumlarda ALICI'nın ikametgahının bulunduğu Tüketici Mahkemelerinin yetkili olacağını kabul etmiştir.
+    </p>
+  </div>
+  <div>
+    <br>
+    <p style="font-weight: bold">9. YÜRÜRLÜK</p><br>
+    9 (dokuz) maddeden ibaret bu Sözleşme, taraflarca okunarak, <input type="date" name="date" id="date"> tarihinde, Alıcı tarafından elektronik ortamda onaylanmak suretiyle akdedilmiş ve yürürlüğe girmiştir.
+  </div>
+</div>
+</body>
+</html>
